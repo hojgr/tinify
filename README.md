@@ -1,2 +1,2 @@
-A complex CMS with made with users in mind
-=====
+# Tinify
+###### A complex CMS with ease of use
