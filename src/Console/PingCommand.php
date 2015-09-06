@@ -28,6 +28,11 @@ class PingCommand extends Command
 {
     public static $identifier = "ping";
 
+    /**
+     * Run command
+     *
+     * @return void
+     */
     function run()
     {
         echo "Pong!\n";
