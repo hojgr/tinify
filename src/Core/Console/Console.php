@@ -13,9 +13,6 @@
 
 namespace App\Core\Console;
 
-require_once __DIR__ . '/../../Console/PingCommand.php';
-require_once __DIR__ . "/CommandNotFoundException.php";
-
 /**
  * Class Console
  *

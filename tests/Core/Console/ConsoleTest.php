@@ -11,9 +11,6 @@
  * @link     <<<MASS-REPLACE-LINK>>>
  */
 
-require_once __DIR__ . "/../../../src/Core/Console/Console.php";
-require_once __DIR__ . "/../../../src/Core/Console/CommandNotFoundException.php";
-
 use App\Core\Console\Console;
 
 /**

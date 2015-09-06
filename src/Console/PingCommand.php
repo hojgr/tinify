@@ -13,8 +13,6 @@
 
 namespace App\Console;
 
-require __DIR__ . "/../Core/Console/Command.php";
-
 use App\Core\Console\Command;
 
 /**

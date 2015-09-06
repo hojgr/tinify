@@ -17,13 +17,14 @@
     stopOnSkipped="false"
     stopOnRisky="false"
     testSuiteLoaderClass="PHPUnit_Runner_StandardTestSuiteLoader"
+    bootstrap="./tests/bootstrap.php"
     timeoutForSmallTests="1"
     timeoutForMediumTests="10"
     timeoutForLargeTests="60"
     verbose="false">
     <testsuites>
         <testsuite name="tests">
-            <directory>tests/Core/Console</directory>
+            <directory>tests</directory>
         </testsuite>
     </testsuites>
 </phpunit>
