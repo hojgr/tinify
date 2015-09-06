@@ -11,6 +11,8 @@
  * @link     <<<MASS-REPLACE-LINK>>>
  */
 
+namespace Tests\Core\Console;
+
 use App\Core\Console\Console;
 
 /**
@@ -22,7 +24,7 @@ use App\Core\Console\Console;
  * @license  http://creativecommons.org/licenses/by-nc-nd/4.0/ Creative Commons
  * @link     <<<MASS-REPLACE-LINK>>>
  */
-class ConsoleTest extends PHPUnit_Framework_TestCase
+class ConsoleTest extends \PHPUnit_Framework_TestCase
 {
 
     /**

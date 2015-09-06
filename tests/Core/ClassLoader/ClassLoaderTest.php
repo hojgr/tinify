@@ -11,7 +11,7 @@
  * @link     <<<MASS-REPLACE-LINK>>>
  */
 
-//namespace Tests\Core\ClassLoader
+namespace Tests\Core\ClassLoader;
 
 use App\Core\ClassLoader\ClassLoader;
 
@@ -24,7 +24,7 @@ use App\Core\ClassLoader\ClassLoader;
  * @license  http://creativecommons.org/licenses/by-nc-nd/4.0/ Creative Commons
  * @link     <<<MASS-REPLACE-LINK>>>
  */
-class ClassLoaderTest extends PHPUnit_Framework_TestCase
+class ClassLoaderTest extends \PHPUnit_Framework_TestCase
 {
     /**
      * Test classToPath method
@@ -119,7 +119,7 @@ class ClassLoaderTest extends PHPUnit_Framework_TestCase
 
         $expected = __FILE__;
 
-        $result = $classLoader->findClass(get_class($this));
+        $result = $classLoader->findClass("ClassLoaderTest");
 
         $this->assertSame($expected, $result);
     }
