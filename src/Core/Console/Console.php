@@ -33,7 +33,7 @@ class Console
     public function __construct()
     {
         $this->knownCommands = [
-            'App\Console\PingCommand'
+            'App\Core\Console\PingCommand'
         ];
     }
     
